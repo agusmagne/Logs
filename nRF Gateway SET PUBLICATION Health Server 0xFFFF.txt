@@ -1,0 +1,287 @@
+V/ConfigModelPublicationSet: AppKeyIndex: 0
+    Element address: 0x0002
+V/ConfigModelPublicationSet: Publish address: 0xFFFF
+    Publish ttl: 255
+    Publish steps: 0
+    Publish resolution: 0
+    Retransmission count: 1
+    Retransmission interval steps: 1
+    Model: 0002
+    Publication set: 0200FFFF0000FF00090200
+V/MeshTransport: Src address: 0001
+    Dst address: 0002
+V/MeshTransport: Key: 1EFE1FCD54316224408A0FE29F36067D
+    akf: 0
+    aid: 0
+    aszmic: 0
+    Sequence number: 35
+    Access message opcode: 3
+    Access message parameters: 0200FFFF0000FF00090200
+V/AccessLayer: Created Access PDU 030200FFFF0000FF00090200
+V/UpperTransportLayer: Device nonce: 02000000230001000200000000
+V/UpperTransportLayer: Encrypted upper transport pdu: 33A3FD4DAE9F5CE191127E62BDD54491
+V/LowerTransportLayer: Segmented Lower transport access PDU: 80008C0133A3FD4DAE9F5CE191127E62 0 of 2
+    Segmented Lower transport access PDU: 80008C21BDD54491 1 of 2
+V/NetworkLayer: Encryption key: EA9F12DF9016D32A14AFED13999A1EB5
+V/NetworkLayer: Privacy key: E829DA294B1698D62534AB6C381A851D
+    Sequence Number: 000023
+    Encrypted Network payload: 3DF1D3A1377DE3FDD89C1BABBFA448F9AEF8E37FD047
+    Sequence Number: 000024
+    Encrypted Network payload: 8EE912B61B13A834E3A182B8B626
+V/BleManager: Writing characteristic 00002add-0000-1000-8000-00805f9b34fb (WRITE COMMAND)
+D/BleManager: gatt.writeCharacteristic(00002add-0000-1000-8000-00805f9b34fb)
+D/BluetoothGatt: writeCharacteristic() - uuid: 00002add-0000-1000-8000-00805f9b34fb
+D/SQLiteDatabase: beginTransaction()
+D/BluetoothGatt: onCharacteristicWrite() - Device=FE:D5:0E:97:C7:DE handle=16 Status=0
+D/SQLiteDatabase: endTransaction()
+I/BleManager: Data written to 00002add-0000-1000-8000-00805f9b34fb, value: (0x) 00-3A-79-CE-9B-83-96-EE-3D-F1-D3-A1-37-7D-E3-FD-D8-9C-1B-AB-BF-A4-48-F9-AE-F8-E3-7F-D0-47
+V/MeshManagerApi: MeshNetwork pdu sent: 0x003A79CE9B8396EE3DF1D3A1377DE3FDD89C1BABBFA448F9AEF8E37FD047
+V/BleManager: Writing characteristic 00002add-0000-1000-8000-00805f9b34fb (WRITE COMMAND)
+D/BleManager: gatt.writeCharacteristic(00002add-0000-1000-8000-00805f9b34fb)
+D/BluetoothGatt: writeCharacteristic() - uuid: 00002add-0000-1000-8000-00805f9b34fb
+D/BluetoothGatt: onCharacteristicWrite() - Device=FE:D5:0E:97:C7:DE handle=16 Status=0
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+I/BleManager: Data written to 00002add-0000-1000-8000-00805f9b34fb, value: (0x) 00-3A-1D-1C-72-9E-B0-7B-8E-E9-12-B6-1B-13-A8-34-E3-A1-82-B8-B6-26
+V/MeshManagerApi: MeshNetwork pdu sent: 0x003A1D1C729EB07B8EE912B61B13A834E3A182B8B626
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+V/PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{1d7f22d no.nordicsemi.android.nrfmeshprovisioner/no.nordicsemi.android.nrfmesh.node.GenericModelConfigurationActivity,ident = 28}, this = DecorView@6f48751[GenericModelConfigurationActivity]
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/Surface: Surface::allocateBuffers(this=0x7f7ef62c00)
+D/OpenGLRenderer: CanvasContext() 0x7f8339e800 initialize window=0x7f7ef62c00, title=no.nordicsemi.android.nrfmeshprovisioner/no.nordicsemi.android.nrfmesh.node.GenericModelConfigurationActivity
+D/Surface: Surface::connect(this=0x7f7ef62c00,api=1)
+W/libEGL: [ANDROID_RECORDABLE] format: 1
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+V/InputMethodManager: onWindowFocus: androidx.recyclerview.widget.RecyclerView{e754e08 VFED..... .F....ID 0,0-1080,162 #7f0902ab app:id/recycler_view_bound_keys} softInputMode=16 first=true flags=#81810100
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+    endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/GraphicBuffer: register, handle(0x7f83c27100) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/GraphicBuffer: register, handle(0x7f83b41c40) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+D/GraphicBuffer: register, handle(0x7f83d34240) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/OpenGLRenderer: ~CanvasContext() 0x7f96b2b000
+D/Surface: Surface::disconnect(this=0x7f72c23e00,api=1)
+D/GraphicBuffer: unregister, handle(0x7f83c25b40) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+D/GraphicBuffer: unregister, handle(0x7f83c27400) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+    unregister, handle(0x7f83d34780) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+D/Surface: Surface::disconnect(this=0x7f72c23e00,api=1)
+D/OpenGLRenderer: endAllActiveAnimators on 0x7f83b7ec00 (RippleDrawable @8fbb455) with handle 0x7f83b22540
+D/BluetoothGatt: onNotify() - Device=FE:D5:0E:97:C7:DE handle=18
+D/BluetoothGatt: onNotify() - Device=FE:D5:0E:97:C7:DE handle=18
+D/BluetoothGatt: onNotify() - Device=FE:D5:0E:97:C7:DE handle=18
+I/BleManager: Notification received from 00002ade-0000-1000-8000-00805f9b34fb, value: (0x) 00-3A-00-78-9D-2F-0A-D3-C8-28-31-2E-FE-EF-2B-50-5A-64-C8-A8-B0-B8-C5-C1-A4
+V/MeshManagerApi: Received network pdu: 0x003A00789D2F0AD3C828312EFEEF2B505A64C8A8B0B8C5C1A4
+V/BaseMeshMessageHandler: TTL for received message: 8
+    Sequence number of received access message: 8
+V/NetworkLayer: TTL for received message: 8
+V/DefaultNoOperationMessageState: Acknowledgement payload: 00000003
+V/BlockAcknowledgementMessage: Segment 0 of 1 received by peer
+    Segment 1 of 1 received by peer
+I/BleManager: Notification received from 00002ade-0000-1000-8000-00805f9b34fb, value: (0x) 00-3A-C8-FF-AA-5B-2F-3B-F8-B2-8C-CC-BD-C5-61-21-09-04-A6-AB-8F-0D-C4-46-A6-0F-9A-2D-D7-7D
+V/MeshManagerApi: Received network pdu: 0x003AC8FFAA5B2F3BF8B28CCCBDC561210904A6AB8F0DC446A60F9A2DD77D
+V/BaseMeshMessageHandler: TTL for received message: 30
+V/BaseMeshMessageHandler: Sequence number of received access message: 9
+V/NetworkLayer: TTL for received message: 30
+    Dst: 0x0001
+V/NetworkLayer: Received a segmented access message from: 0002
+V/LowerTransportLayer: SEG O: 0
+    SEG N: 1
+    Last SeqAuth value 7
+    Current SeqAuth value 9
+V/BlockAcknowledgementMessage: Block ack value: 1
+V/LowerTransportLayer: Starting incomplete timer for src: 0002
+    TTL: 5
+    Duration: 400
+V/DefaultNoOperationMessageState: Message reassembly may not be completed yet!
+I/BleManager: Notification received from 00002ade-0000-1000-8000-00805f9b34fb, value: (0x) 00-3A-B7-12-7F-0D-4F-9A-F0-17-1B-2F-35-0A-9A-22-B3-6A-1D-99-ED-AC-A7-76
+V/MeshManagerApi: Received network pdu: 0x003AB7127F0D4F9AF0171B2F350A9A22B36A1D99EDACA776
+V/BaseMeshMessageHandler: TTL for received message: 30
+    Sequence number of received access message: 10
+V/NetworkLayer: TTL for received message: 30
+V/NetworkLayer: Dst: 0x0001
+    Received a segmented access message from: 0002
+V/LowerTransportLayer: SEG O: 1
+    SEG N: 1
+    Last SeqAuth value 9
+    Current SeqAuth value 9
+    Received segment message count: 2
+V/BlockAcknowledgementMessage: Block ack value: 3
+V/LowerTransportLayer: SEG O BLOCK ACK VAL: 3
+V/BlockAcknowledgementMessage: Block ack: 3
+    bit count: 1
+V/LowerTransportLayer: Block acknowledgement payload: 002400000003
+V/LowerTransportLayer: Creating unsegmented transport control
+    Unsegmented Lower transport control PDU 00002400000003
+V/NetworkLayer: Encryption key: EA9F12DF9016D32A14AFED13999A1EB5
+    Privacy key: E829DA294B1698D62534AB6C381A851D
+    Sequence Number: 000025
+V/NetworkLayer: Encrypted Network payload: 734DA1347F7416BB23AAF5CEEAE8BB88A8
+V/MeshMessageState: Sending acknowledgement: 003AEA35E5C70F45734DA1347F7416BB23AAF5CEEAE8BB88A8
+D/SQLiteDatabase: beginTransaction()
+V/BleManager: Writing characteristic 00002add-0000-1000-8000-00805f9b34fb (WRITE COMMAND)
+D/BleManager: gatt.writeCharacteristic(00002add-0000-1000-8000-00805f9b34fb)
+D/BluetoothGatt: writeCharacteristic() - uuid: 00002add-0000-1000-8000-00805f9b34fb
+V/AccessLayer: Received Access PDU 8019000200FFFF0000FF00090200
+V/ConfigModelPublicationStatus: Status code: 0
+    Status message: Success
+    Element address: 0002
+    Publish Address: FFFF
+    App key index: 0000
+    Credential Flag: false
+    Publish TTL: 255
+    Publish Period where steps: 0 and resolution: 0
+    Publish Retransmit Count: 1
+    Publish Retransmit Interval Steps: 1
+    Model Identifier: 2
+V/ConfigModelPublicationStatus: Publication status: 000200FFFF0000FF00090200
+D/BluetoothGatt: onCharacteristicWrite() - Device=FE:D5:0E:97:C7:DE handle=16 Status=0
+D/SQLiteDatabase: endTransaction()
+I/BleManager: Data written to 00002add-0000-1000-8000-00805f9b34fb, value: (0x) 00-3A-EA-35-E5-C7-0F-45-73-4D-A1-34-7F-74-16-BB-23-AA-F5-CE-EA-E8-BB-88-A8
+V/MeshManagerApi: MeshNetwork pdu sent: 0x003AEA35E5C70F45734DA1347F7416BB23AAF5CEEAE8BB88A8
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/WindowClient: Remove from mViews: DecorView@69f962f[PublicationSettingsActivity], this = android.view.WindowManagerGlobal@5de61e6
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+V/LowerTransportLayer: Acknowledgement timer expiring
+V/BlockAcknowledgementMessage: Block ack: 3
+V/BlockAcknowledgementMessage: bit count: 1
+V/LowerTransportLayer: Block acknowledgement payload: 002400000003
+    Creating unsegmented transport control
+    Unsegmented Lower transport control PDU 00002400000003
+V/NetworkLayer: Encryption key: EA9F12DF9016D32A14AFED13999A1EB5
+    Privacy key: E829DA294B1698D62534AB6C381A851D
+    Sequence Number: 000026
+V/NetworkLayer: Encrypted Network payload: 00C08B7893593EFBFF6741DC8DA0A30AC5
+V/MeshMessageState: Sending acknowledgement: 003AC3498CAF3B8E00C08B7893593EFBFF6741DC8DA0A30AC5
+V/BleManager: Writing characteristic 00002add-0000-1000-8000-00805f9b34fb (WRITE COMMAND)
+D/BleManager: gatt.writeCharacteristic(00002add-0000-1000-8000-00805f9b34fb)
+D/BluetoothGatt: writeCharacteristic() - uuid: 00002add-0000-1000-8000-00805f9b34fb
+D/BluetoothGatt: onCharacteristicWrite() - Device=FE:D5:0E:97:C7:DE handle=16 Status=0
+I/BleManager: Data written to 00002add-0000-1000-8000-00805f9b34fb, value: (0x) 00-3A-C3-49-8C-AF-3B-8E-00-C0-8B-78-93-59-3E-FB-FF-67-41-DC-8D-A0-A3-0A-C5
+V/MeshManagerApi: MeshNetwork pdu sent: 0x003AC3498CAF3B8E00C08B7893593EFBFF6741DC8DA0A30AC5
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+    endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+    endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()

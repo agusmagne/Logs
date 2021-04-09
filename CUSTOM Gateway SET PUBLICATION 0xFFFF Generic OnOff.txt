@@ -1,0 +1,272 @@
+V/ConfigModelPublicationSet: AppKeyIndex: 0
+    Element address: 0x0064
+V/ConfigModelPublicationSet: Publish address: 0xFFFF
+    Publish ttl: 255
+    Publish steps: 0
+    Publish resolution: 0
+    Retransmission count: 1
+    Retransmission interval steps: 1
+    Model: 1001
+    Publication set: 6400FFFF0000FF00090110
+V/MeshTransport: Src address: 0001
+    Dst address: 0064
+V/MeshTransport: Key: B40DCBD1E67C20F46720BDCF396FF59C
+    akf: 0
+    aid: 0
+    aszmic: 0
+    Sequence number: 493
+    Access message opcode: 3
+    Access message parameters: 6400FFFF0000FF00090110
+V/AccessLayer: Created Access PDU 036400FFFF0000FF00090110
+V/UpperTransportLayer: Device nonce: 02000001ED0001006400000000
+V/UpperTransportLayer: Encrypted upper transport pdu: D017A4ABF9F04395DAF1DE035815F7B8
+V/LowerTransportLayer: Segmented Lower transport access PDU: 8007B401D017A4ABF9F04395DAF1DE03 0 of 2
+    Segmented Lower transport access PDU: 8007B4215815F7B8 1 of 2
+V/NetworkLayer: Encryption key: DBD2E65A14F514BF88AA1294D0B6AABD
+    Privacy key: 71D43F9A66D97CC3F1493465BACFBB65
+    Sequence Number: 0001ED
+    Encrypted Network payload: 8479BB7406CB70A660FCE7B373A0E6702B9B6ACC32C0
+    Sequence Number: 0001EE
+V/NetworkLayer: Encrypted Network payload: CA2B5F50E4D4742AA687C2FCCF03
+I/System.out: onNetworkUpdated
+    getMtu
+I/System.out: onMeshPduCreated
+D/SQLiteDatabase: beginTransaction()
+D/BluetoothGatt: writeCharacteristic() - uuid: 00002add-0000-1000-8000-00805f9b34fb
+D/BluetoothGatt: onCharacteristicWrite() - Device=FE:D5:0E:97:C7:DE handle=16 Status=0
+I/System.out: onNetworkUpdated
+    getMtu
+    onMeshPduCreated
+D/SQLiteDatabase: endTransaction()
+D/BluetoothGatt: writeCharacteristic() - uuid: 00002add-0000-1000-8000-00805f9b34fb
+I/System.out: onMeshMessageProcessed
+D/SQLiteDatabase: beginTransaction()
+D/BluetoothGatt: onCharacteristicWrite() - Device=FE:D5:0E:97:C7:DE handle=16 Status=0
+D/SQLiteDatabase: beginTransaction()
+V/MeshManagerApi: MeshNetwork pdu sent: 0x00412CDF5BE82D738479BB7406CB70A660FCE7B373A0E6702B9B6ACC32C0
+    MeshNetwork pdu sent: 0x0041E59CE5508597CA2B5F50E4D4742AA687C2FCCF03
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/BluetoothGatt: onNotify() - Device=FE:D5:0E:97:C7:DE handle=18
+V/MeshManagerApi: Received network pdu: 0x004157AC11618DC9806D4A03B6EDCA2275BE3B96124815ECA6
+D/BluetoothGatt: onNotify() - Device=FE:D5:0E:97:C7:DE handle=18
+D/BluetoothGatt: onNotify() - Device=FE:D5:0E:97:C7:DE handle=18
+V/BaseMeshMessageHandler: TTL for received message: 8
+    Sequence number of received access message: 10
+V/NetworkLayer: TTL for received message: 8
+V/DefaultNoOperationMessageState: Acknowledgement payload: 00000003
+V/BlockAcknowledgementMessage: Segment 0 of 1 received by peer
+    Segment 1 of 1 received by peer
+I/System.out: onBlockAcknowledgementReceived
+V/MeshManagerApi: Received network pdu: 0x0041312E7399C01F06D05BF70D9FADD53F2F51C110D65656F046CC6288B4
+V/BaseMeshMessageHandler: TTL for received message: 30
+    Sequence number of received access message: 11
+V/NetworkLayer: TTL for received message: 30
+    Dst: 0x0001
+    Received a segmented access message from: 0064
+V/LowerTransportLayer: SEG O: 0
+    SEG N: 1
+    Last SeqAuth value 9
+    Current SeqAuth value 11
+V/BlockAcknowledgementMessage: Block ack value: 1
+V/LowerTransportLayer: Starting incomplete timer for src: 0064
+    TTL: 5
+    Duration: 400
+V/DefaultNoOperationMessageState: Message reassembly may not be completed yet!
+V/MeshManagerApi: Received network pdu: 0x0041AF845AFD1022CB231E7E9F4871C25C28DEE902619D07
+V/BaseMeshMessageHandler: TTL for received message: 30
+    Sequence number of received access message: 12
+V/NetworkLayer: TTL for received message: 30
+    Dst: 0x0001
+    Received a segmented access message from: 0064
+V/LowerTransportLayer: SEG O: 1
+    SEG N: 1
+    Last SeqAuth value 11
+V/LowerTransportLayer: Current SeqAuth value 11
+    Received segment message count: 2
+V/BlockAcknowledgementMessage: Block ack value: 3
+V/LowerTransportLayer: SEG O BLOCK ACK VAL: 3
+V/BlockAcknowledgementMessage: Block ack: 3
+    bit count: 1
+V/LowerTransportLayer: Block acknowledgement payload: 002C00000003
+    Creating unsegmented transport control
+    Unsegmented Lower transport control PDU 00002C00000003
+V/NetworkLayer: Encryption key: DBD2E65A14F514BF88AA1294D0B6AABD
+    Privacy key: 71D43F9A66D97CC3F1493465BACFBB65
+    Sequence Number: 0001EF
+    Encrypted Network payload: 951AFA599FFFAA9AF9E4EF8F7FDFA52F11
+V/MeshMessageState: Sending acknowledgement: 0041247DBCB1DCBF951AFA599FFFAA9AF9E4EF8F7FDFA52F11
+I/System.out: onNetworkUpdated
+I/System.out: getMtu
+    onMeshPduCreated
+D/BluetoothGatt: writeCharacteristic() - uuid: 00002add-0000-1000-8000-00805f9b34fb
+I/System.out: onBlockAcknowledgementProcessed
+D/BluetoothGatt: onCharacteristicWrite() - Device=FE:D5:0E:97:C7:DE handle=16 Status=0
+V/AccessLayer: Received Access PDU 8019006400FFFF0000FF00090110
+V/ConfigModelPublicationStatus: Status code: 0
+    Status message: Success
+    Element address: 0064
+    Publish Address: FFFF
+V/ConfigModelPublicationStatus: App key index: 0000
+    Credential Flag: false
+    Publish TTL: 255
+    Publish Period where steps: 0 and resolution: 0
+    Publish Retransmit Count: 1
+    Publish Retransmit Interval Steps: 1
+    Model Identifier: 1001
+    Publication status: 006400FFFF0000FF00090110
+D/SQLiteDatabase: beginTransaction()
+I/System.out: onNetworkUpdated
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+I/System.out: onMeshMessageReceived
+V/MeshManagerApi: MeshNetwork pdu sent: 0x0041247DBCB1DCBF951AFA599FFFAA9AF9E4EF8F7FDFA52F11
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+V/LowerTransportLayer: Acknowledgement timer expiring
+V/BlockAcknowledgementMessage: Block ack: 3
+    bit count: 1
+V/LowerTransportLayer: Block acknowledgement payload: 002C00000003
+    Creating unsegmented transport control
+    Unsegmented Lower transport control PDU 00002C00000003
+V/NetworkLayer: Encryption key: DBD2E65A14F514BF88AA1294D0B6AABD
+    Privacy key: 71D43F9A66D97CC3F1493465BACFBB65
+    Sequence Number: 0001F0
+    Encrypted Network payload: A1D3F457D3FA8FB20C7E6C081CA864C9BC
+V/MeshMessageState: Sending acknowledgement: 0041D6ADCD677026A1D3F457D3FA8FB20C7E6C081CA864C9BC
+I/System.out: onNetworkUpdated
+    getMtu
+    onMeshPduCreated
+D/BluetoothGatt: writeCharacteristic() - uuid: 00002add-0000-1000-8000-00805f9b34fb
+D/BluetoothGatt: onCharacteristicWrite() - Device=FE:D5:0E:97:C7:DE handle=16 Status=0
+I/System.out: onBlockAcknowledgementProcessed
+V/MeshManagerApi: MeshNetwork pdu sent: 0x0041D6ADCD677026A1D3F457D3FA8FB20C7E6C081CA864C9BC
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()

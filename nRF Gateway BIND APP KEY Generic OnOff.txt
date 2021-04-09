@@ -1,0 +1,113 @@
+V/MeshTransport: Src address: 0001
+    Dst address: 0002
+    Key: 1EFE1FCD54316224408A0FE29F36067D
+    akf: 0
+    aid: 0
+    aszmic: 0
+    Sequence number: 39
+    Access message opcode: 803d
+V/MeshTransport: Access message parameters: 020000000110
+V/AccessLayer: Created Access PDU 803D020000000110
+V/UpperTransportLayer: Device nonce: 02000000270001000200000000
+    Encrypted upper transport pdu: 39793A48DE05910FE4E0D067
+V/LowerTransportLayer: Unsegmented Lower transport access PDU 0039793A48DE05910FE4E0D067
+V/NetworkLayer: Encryption key: EA9F12DF9016D32A14AFED13999A1EB5
+    Privacy key: E829DA294B1698D62534AB6C381A851D
+V/NetworkLayer: Sequence Number: 000027
+    Encrypted Network payload: 25FD34C4A68BF05A187D563C1D743F03253BC7
+V/BleManager: Writing characteristic 00002add-0000-1000-8000-00805f9b34fb (WRITE COMMAND)
+D/BleManager: gatt.writeCharacteristic(00002add-0000-1000-8000-00805f9b34fb)
+D/BluetoothGatt: writeCharacteristic() - uuid: 00002add-0000-1000-8000-00805f9b34fb
+D/SQLiteDatabase: beginTransaction()
+D/BluetoothGatt: onCharacteristicWrite() - Device=FE:D5:0E:97:C7:DE handle=16 Status=0
+D/SQLiteDatabase: endTransaction()
+V/PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = ViewRoot{73540a4 no.nordicsemi.android.nrfmeshprovisioner/no.nordicsemi.android.nrfmesh.node.GenericModelConfigurationActivity,ident = 32}, this = DecorView@2e12197[GenericModelConfigurationActivity]
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/Surface: Surface::allocateBuffers(this=0x7f7ef62c00)
+D/OpenGLRenderer: CanvasContext() 0x7f96b2b000 initialize window=0x7f7ef62c00, title=no.nordicsemi.android.nrfmeshprovisioner/no.nordicsemi.android.nrfmesh.node.GenericModelConfigurationActivity
+D/Surface: Surface::connect(this=0x7f7ef62c00,api=1)
+W/libEGL: [ANDROID_RECORDABLE] format: 1
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000
+D/SQLiteDatabase: endTransaction()
+I/BleManager: Data written to 00002add-0000-1000-8000-00805f9b34fb, value: (0x) 00-3A-70-B6-46-76-E0-64-25-FD-34-C4-A6-8B-F0-5A-18-7D-56-3C-1D-74-3F-03-25-3B-C7
+V/MeshManagerApi: MeshNetwork pdu sent: 0x003A70B64676E06425FD34C4A68BF05A187D563C1D743F03253BC7
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+    beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/GraphicBuffer: register, handle(0x7f832a5240) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+D/GraphicBuffer: register, handle(0x7f83b40a40) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+V/InputMethodManager: onWindowFocus: null softInputMode=32 first=true flags=#81810100
+D/GraphicBuffer: register, handle(0x7f83c277c0) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+D/OpenGLRenderer: ~CanvasContext() 0x7f8339e800
+D/OpenGLRenderer: ~CanvasContext() 0x7f83a4e000
+D/Surface: Surface::disconnect(this=0x7f72c23e00,api=1)
+D/GraphicBuffer: unregister, handle(0x7f72d97980) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+    unregister, handle(0x7f83b3ff00) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+D/GraphicBuffer: unregister, handle(0x7f83c25f00) (w:1080 h:1920 s:1088 f:0x1 u:0x000b00)
+D/Surface: Surface::disconnect(this=0x7f72c23e00,api=1)
+D/OpenGLRenderer: ~CanvasContext() 0x7f96b24000
+D/BluetoothGatt: onNotify() - Device=FE:D5:0E:97:C7:DE handle=18
+I/BleManager: Notification received from 00002ade-0000-1000-8000-00805f9b34fb, value: (0x) 00-3A-6E-A7-DE-B3-3F-5E-88-57-65-BF-E5-05-F8-69-EB-92-0D-4D-64-CA-86-87-E8-37-68-4D
+V/MeshManagerApi: Received network pdu: 0x003A6EA7DEB33F5E885765BFE505F869EB920D4D64CA8687E837684D
+V/BaseMeshMessageHandler: TTL for received message: 30
+    Sequence number of received access message: 11
+V/NetworkLayer: TTL for received message: 30
+    Dst: 0x0001
+D/LowerTransportLayer: IV Index of received message: 0
+    SeqAuth: 11
+V/AccessLayer: Received Access PDU 803E00020000000110
+V/ConfigModelAppStatus: Status code: 0
+    Status message: Success
+    Element address: 0002
+    App key index: 0000
+    Model identifier: 1001
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/WindowClient: Remove from mViews: DecorView@9d47cd5[AppKeysActivity], this = android.view.WindowManagerGlobal@5de61e6
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+    beginTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: endTransaction()
+D/SQLiteDatabase: beginTransaction()
+D/SQLiteDatabase: endTransaction()
